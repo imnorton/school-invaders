@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="p5assets/p5.min.js"></script>
+  <script src="p5assets/p5.dom.min.js"></script>
+  <script src="p5assets/p5.sound.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="p5assets/style.css">
+  <meta charset="utf-8">
+  <style>
+    body {
+      background: url(images/notebook.jpg) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      font-size: 22px;
+    }
+
+    a {
+      font-size: 22px;
+    }
+
+    .main {
+      display: flex;
+      justify-content: center;
+    }
+
+    .main-column {
+      display: flex;
+      flex-direction: column;
+    }
+  </style>
+
+</head>
+
+<body>
+  <script src="ship.js"></script>
+  <script src="enemy.js"></script>
+  <script src="bullet.js"></script>
+  <script src="sketch.js"></script>
+
+  <div class="main">
+    <div class="main-column">
+      <div id="sketch-holder">
+        <!-- Our sketch will go here! -->
+      </div>
+      <div>
+        <a href="http://p5js.org/" target="_p5">p5js</a> This is the JavaScript library that makes the game run.<br />
+        <a href="https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw" target="_coding_train">The Coding Train</a>
+        This is the YouTube channel with the tutorial that I followed.<br />
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
